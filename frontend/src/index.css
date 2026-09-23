@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@import "highlight.js/styles/github-dark.css";
+@theme { --color-ink: #101828; --color-paper: #f8fafc; --color-bridge: #2563eb; }
+body { @apply m-0 bg-paper text-ink antialiased; font-family: Inter, ui-sans-serif, system-ui, sans-serif; }
+code { @apply rounded bg-slate-100 px-1 py-0.5 text-sm; }
+pre { @apply overflow-x-auto rounded-lg p-4; }

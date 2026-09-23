@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+node_modules/
+dist/
+data/database/*.db
+.pytest_cache/
+coverage/
+*.tsbuildinfo
+backend/.venv/
